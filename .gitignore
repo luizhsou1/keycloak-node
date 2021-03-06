@@ -1,0 +1,6 @@
+node_modules
+.env
+
+.docker/keycloak-postgres
+.docker/keycloak/*
+!.docker/keycloak/realm-myrealm.json

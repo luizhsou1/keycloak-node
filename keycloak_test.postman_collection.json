@@ -1,0 +1,226 @@
+{
+	"id": "942f95e6-72e7-9449-ab8a-bbc8f6b5d2da",
+	"name": "keycloak_test",
+	"description": "",
+	"order": [
+		"1a625164-69eb-500c-1c68-d4e93ec6f1f1",
+		"3a3f063d-180b-da03-4d11-b44c298f2e15",
+		"312fa4e0-c1b0-32e1-dc39-d06531861fed",
+		"6f9b4cc2-e4e1-4ff6-9e79-ccbc3f4c339f",
+		"865b1ddc-3fc1-9c9b-a945-1c81568900dd"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1615059817538,
+	"owner": "10974114",
+	"public": false,
+	"requests": [
+		{
+			"id": "1a625164-69eb-500c-1c68-d4e93ec6f1f1",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/auth/realms/myrealm/protocol/openid-connect/token",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "grant_type",
+					"value": "password",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "client_id",
+					"value": "myclient",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "client_secret",
+					"value": "2b8da392-de8d-40dc-926a-745b8c8426ff",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "username",
+					"value": "myuser",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615072666902,
+			"name": "Logar",
+			"description": "",
+			"collectionId": "942f95e6-72e7-9449-ab8a-bbc8f6b5d2da",
+			"responses": []
+		},
+		{
+			"id": "312fa4e0-c1b0-32e1-dc39-d06531861fed",
+			"headers": "Authorization: bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJuVkh2WGtfZ2pzbkxKREh4SDhoUnNjMXV0cjNhc002VkVENmlqSXdUYWlJIn0.eyJleHAiOjE2MTUwNzMwMjcsImlhdCI6MTYxNTA3MjcyNywianRpIjoiNTZiZTk5MGItMjg5ZC00ZDE1LTg1NjktMzBmNWE5MWI5NTdiIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL2F1dGgvcmVhbG1zL215cmVhbG0iLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiMmFhYWEwMDctMzU5MC00OTkwLTkxOTUtMWU0ZDQzMTlhZjIwIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoibXljbGllbnQiLCJzZXNzaW9uX3N0YXRlIjoiNGYwYTUzYjgtNmMwYS00NDQ5LTk1ZTctMmIxZmNiZjc5ZDA4IiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwczovL3d3dy5rZXljbG9hay5vcmciXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJteWNsaWVudCI6eyJyb2xlcyI6WyJ1c2VyIl19LCJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6InByb2ZpbGUgZW1haWwiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm5hbWUiOiJMdWl6IFNvdXphIiwicHJlZmVycmVkX3VzZXJuYW1lIjoibXl1c2VyIiwiZ2l2ZW5fbmFtZSI6Ikx1aXoiLCJmYW1pbHlfbmFtZSI6IlNvdXphIn0.ixZnkilXlltauEguCxt8LMm8Nv4iZbUWCHRAXsV1ZLT6zHEZSPAIaTaUgli7kf5CQpmC2XdXAfu-0krMkYuq0hdtLZyANGDLViPjt5itvExhis7BqtPiulrkmh4BOhZCclp1Y3KXriLK5ptyB3_K-HRCuy6SBtp4wA1nWlkfCtCBkWmW1KdiIY9LgZDSLsLkyJD2SBQjtfMZ1NY8RwFw0_Ul8qmVP9xAyu33l4839og19W6YMSPP0KXVs_y78XUuGd81Xv2uW0-hMgQzTVm-75NT3HH_L7AoavbU6-nk-WVOgJkrbIZ4KxWxR_cWUOQCu7OL7ggaloz5867xeSTKIA\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJuVkh2WGtfZ2pzbkxKREh4SDhoUnNjMXV0cjNhc002VkVENmlqSXdUYWlJIn0.eyJleHAiOjE2MTUwNzMwMjcsImlhdCI6MTYxNTA3MjcyNywianRpIjoiNTZiZTk5MGItMjg5ZC00ZDE1LTg1NjktMzBmNWE5MWI5NTdiIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL2F1dGgvcmVhbG1zL215cmVhbG0iLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiMmFhYWEwMDctMzU5MC00OTkwLTkxOTUtMWU0ZDQzMTlhZjIwIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoibXljbGllbnQiLCJzZXNzaW9uX3N0YXRlIjoiNGYwYTUzYjgtNmMwYS00NDQ5LTk1ZTctMmIxZmNiZjc5ZDA4IiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwczovL3d3dy5rZXljbG9hay5vcmciXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJteWNsaWVudCI6eyJyb2xlcyI6WyJ1c2VyIl19LCJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6InByb2ZpbGUgZW1haWwiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm5hbWUiOiJMdWl6IFNvdXphIiwicHJlZmVycmVkX3VzZXJuYW1lIjoibXl1c2VyIiwiZ2l2ZW5fbmFtZSI6Ikx1aXoiLCJmYW1pbHlfbmFtZSI6IlNvdXphIn0.ixZnkilXlltauEguCxt8LMm8Nv4iZbUWCHRAXsV1ZLT6zHEZSPAIaTaUgli7kf5CQpmC2XdXAfu-0krMkYuq0hdtLZyANGDLViPjt5itvExhis7BqtPiulrkmh4BOhZCclp1Y3KXriLK5ptyB3_K-HRCuy6SBtp4wA1nWlkfCtCBkWmW1KdiIY9LgZDSLsLkyJD2SBQjtfMZ1NY8RwFw0_Ul8qmVP9xAyu33l4839og19W6YMSPP0KXVs_y78XUuGd81Xv2uW0-hMgQzTVm-75NT3HH_L7AoavbU6-nk-WVOgJkrbIZ4KxWxR_cWUOQCu7OL7ggaloz5867xeSTKIA",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/test/user",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615072786577,
+			"name": "Acessar Rota Protegida Por User",
+			"description": "",
+			"collectionId": "942f95e6-72e7-9449-ab8a-bbc8f6b5d2da",
+			"responses": []
+		},
+		{
+			"id": "3a3f063d-180b-da03-4d11-b44c298f2e15",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/auth/realms/myrealm/protocol/openid-connect/token",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "grant_type",
+					"value": "refresh_token",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "client_id",
+					"value": "myclient",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "client_secret",
+					"value": "2b8da392-de8d-40dc-926a-745b8c8426ff",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "refresh_token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIzNzBjMGQ5OC0yYWRlLTQyMzMtOTFkZS0wYTk3ZjcxOGY1ZjkifQ.eyJleHAiOjE2MTUwNzQ1MjcsImlhdCI6MTYxNTA3MjcyNywianRpIjoiODQyNjI1MWEtNGY2ZC00N2Q4LTkzZTMtNjM0NzUzNjdmMzgzIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL2F1dGgvcmVhbG1zL215cmVhbG0iLCJhdWQiOiJodHRwOi8vbG9jYWxob3N0OjgwODAvYXV0aC9yZWFsbXMvbXlyZWFsbSIsInN1YiI6IjJhYWFhMDA3LTM1OTAtNDk5MC05MTk1LTFlNGQ0MzE5YWYyMCIsInR5cCI6IlJlZnJlc2giLCJhenAiOiJteWNsaWVudCIsInNlc3Npb25fc3RhdGUiOiI0ZjBhNTNiOC02YzBhLTQ0NDktOTVlNy0yYjFmY2JmNzlkMDgiLCJzY29wZSI6InByb2ZpbGUgZW1haWwifQ.iHDLGVra-HNthwPtFATpigPxULAygKUI4LKOnW9jyUo",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615072811064,
+			"name": "Logar por Refresh Token",
+			"description": "",
+			"collectionId": "942f95e6-72e7-9449-ab8a-bbc8f6b5d2da",
+			"responses": []
+		},
+		{
+			"id": "6f9b4cc2-e4e1-4ff6-9e79-ccbc3f4c339f",
+			"headers": "Authorization: bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJuVkh2WGtfZ2pzbkxKREh4SDhoUnNjMXV0cjNhc002VkVENmlqSXdUYWlJIn0.eyJleHAiOjE2MTUwNzMwMjcsImlhdCI6MTYxNTA3MjcyNywianRpIjoiNTZiZTk5MGItMjg5ZC00ZDE1LTg1NjktMzBmNWE5MWI5NTdiIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL2F1dGgvcmVhbG1zL215cmVhbG0iLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiMmFhYWEwMDctMzU5MC00OTkwLTkxOTUtMWU0ZDQzMTlhZjIwIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoibXljbGllbnQiLCJzZXNzaW9uX3N0YXRlIjoiNGYwYTUzYjgtNmMwYS00NDQ5LTk1ZTctMmIxZmNiZjc5ZDA4IiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwczovL3d3dy5rZXljbG9hay5vcmciXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJteWNsaWVudCI6eyJyb2xlcyI6WyJ1c2VyIl19LCJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6InByb2ZpbGUgZW1haWwiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm5hbWUiOiJMdWl6IFNvdXphIiwicHJlZmVycmVkX3VzZXJuYW1lIjoibXl1c2VyIiwiZ2l2ZW5fbmFtZSI6Ikx1aXoiLCJmYW1pbHlfbmFtZSI6IlNvdXphIn0.ixZnkilXlltauEguCxt8LMm8Nv4iZbUWCHRAXsV1ZLT6zHEZSPAIaTaUgli7kf5CQpmC2XdXAfu-0krMkYuq0hdtLZyANGDLViPjt5itvExhis7BqtPiulrkmh4BOhZCclp1Y3KXriLK5ptyB3_K-HRCuy6SBtp4wA1nWlkfCtCBkWmW1KdiIY9LgZDSLsLkyJD2SBQjtfMZ1NY8RwFw0_Ul8qmVP9xAyu33l4839og19W6YMSPP0KXVs_y78XUuGd81Xv2uW0-hMgQzTVm-75NT3HH_L7AoavbU6-nk-WVOgJkrbIZ4KxWxR_cWUOQCu7OL7ggaloz5867xeSTKIA\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJuVkh2WGtfZ2pzbkxKREh4SDhoUnNjMXV0cjNhc002VkVENmlqSXdUYWlJIn0.eyJleHAiOjE2MTUwNzMwMjcsImlhdCI6MTYxNTA3MjcyNywianRpIjoiNTZiZTk5MGItMjg5ZC00ZDE1LTg1NjktMzBmNWE5MWI5NTdiIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL2F1dGgvcmVhbG1zL215cmVhbG0iLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiMmFhYWEwMDctMzU5MC00OTkwLTkxOTUtMWU0ZDQzMTlhZjIwIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoibXljbGllbnQiLCJzZXNzaW9uX3N0YXRlIjoiNGYwYTUzYjgtNmMwYS00NDQ5LTk1ZTctMmIxZmNiZjc5ZDA4IiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwczovL3d3dy5rZXljbG9hay5vcmciXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJteWNsaWVudCI6eyJyb2xlcyI6WyJ1c2VyIl19LCJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6InByb2ZpbGUgZW1haWwiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm5hbWUiOiJMdWl6IFNvdXphIiwicHJlZmVycmVkX3VzZXJuYW1lIjoibXl1c2VyIiwiZ2l2ZW5fbmFtZSI6Ikx1aXoiLCJmYW1pbHlfbmFtZSI6IlNvdXphIn0.ixZnkilXlltauEguCxt8LMm8Nv4iZbUWCHRAXsV1ZLT6zHEZSPAIaTaUgli7kf5CQpmC2XdXAfu-0krMkYuq0hdtLZyANGDLViPjt5itvExhis7BqtPiulrkmh4BOhZCclp1Y3KXriLK5ptyB3_K-HRCuy6SBtp4wA1nWlkfCtCBkWmW1KdiIY9LgZDSLsLkyJD2SBQjtfMZ1NY8RwFw0_Ul8qmVP9xAyu33l4839og19W6YMSPP0KXVs_y78XUuGd81Xv2uW0-hMgQzTVm-75NT3HH_L7AoavbU6-nk-WVOgJkrbIZ4KxWxR_cWUOQCu7OL7ggaloz5867xeSTKIA",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/test/admin",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615072796535,
+			"name": "Acessar Rota Protegida Por Admin",
+			"description": "",
+			"collectionId": "942f95e6-72e7-9449-ab8a-bbc8f6b5d2da",
+			"responses": []
+		},
+		{
+			"id": "865b1ddc-3fc1-9c9b-a945-1c81568900dd",
+			"headers": "Authorization: bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJfbHNYMkw2R2UyTFZtdnQ0dUhWdm85TTFvcXJYcC1lOXBVNUFuZlpaMldrIn0.eyJleHAiOjE2MTUwNjM1MjcsImlhdCI6MTYxNTA2MzIyNywianRpIjoiZjUyZGRhMTQtZWQ5ZS00YzIzLTk4NWMtODcxMDE0ZjlhY2MyIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL2F1dGgvcmVhbG1zL215cmVhbG0iLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiMzdlNjZmZDItZTljMC00YzRhLWFlYzQtZjNhYjI0NmY0MTQ5IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoibXljbGllbnQiLCJzZXNzaW9uX3N0YXRlIjoiN2JhYzdiNjAtMWVhYy00YmJmLWI3MDctNTcyYWQ5YTk0ZGEyIiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwczovL3d3dy5rZXljbG9hay5vcmciXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwiYXBwLWFkbWluIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJteWNsaWVudCI6eyJyb2xlcyI6WyJhZG1pbiJdfSwiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJwcm9maWxlIGVtYWlsIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsIm5hbWUiOiJDcmlzdGlhbm8gUm9uYWxkbyIsInByZWZlcnJlZF91c2VybmFtZSI6ImVtcGxveWVlMiIsImdpdmVuX25hbWUiOiJDcmlzdGlhbm8iLCJmYW1pbHlfbmFtZSI6IlJvbmFsZG8ifQ.L-z0gu5-vRBkldMWYCBiNfrX6GJURYhYO4YPiIA-ySjrPbRPqJ7zxC35l7CSfUhCNpsqWoJvVzYflrUxU5-M0cXUbsvnx4Ef9md23K4yIeUqeK9oTfICJVhJ7CPsbJGuvdqzRusjEFD-Trimk0om_6KNgy9tAV23NSu7o7bsXIluyUweZp47g0ZBHRJgGZpT0Jhx3mW5Iagg-zSzjaRvA0FB1T7YTsbeLDH8kUfHoYnjYwYo5jatkDQ5ZO2pinJrA0bM35QMYLHkHMXDsryG68Vx4UO4FtzJ0AxEyq7-Cm1_XQT_tj34aimIHzXMMFgFYg938x8fqxairGywQquyNQ\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJfbHNYMkw2R2UyTFZtdnQ0dUhWdm85TTFvcXJYcC1lOXBVNUFuZlpaMldrIn0.eyJleHAiOjE2MTUwNjM1MjcsImlhdCI6MTYxNTA2MzIyNywianRpIjoiZjUyZGRhMTQtZWQ5ZS00YzIzLTk4NWMtODcxMDE0ZjlhY2MyIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL2F1dGgvcmVhbG1zL215cmVhbG0iLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiMzdlNjZmZDItZTljMC00YzRhLWFlYzQtZjNhYjI0NmY0MTQ5IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoibXljbGllbnQiLCJzZXNzaW9uX3N0YXRlIjoiN2JhYzdiNjAtMWVhYy00YmJmLWI3MDctNTcyYWQ5YTk0ZGEyIiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwczovL3d3dy5rZXljbG9hay5vcmciXSwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwiYXBwLWFkbWluIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJteWNsaWVudCI6eyJyb2xlcyI6WyJhZG1pbiJdfSwiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJwcm9maWxlIGVtYWlsIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsIm5hbWUiOiJDcmlzdGlhbm8gUm9uYWxkbyIsInByZWZlcnJlZF91c2VybmFtZSI6ImVtcGxveWVlMiIsImdpdmVuX25hbWUiOiJDcmlzdGlhbm8iLCJmYW1pbHlfbmFtZSI6IlJvbmFsZG8ifQ.L-z0gu5-vRBkldMWYCBiNfrX6GJURYhYO4YPiIA-ySjrPbRPqJ7zxC35l7CSfUhCNpsqWoJvVzYflrUxU5-M0cXUbsvnx4Ef9md23K4yIeUqeK9oTfICJVhJ7CPsbJGuvdqzRusjEFD-Trimk0om_6KNgy9tAV23NSu7o7bsXIluyUweZp47g0ZBHRJgGZpT0Jhx3mW5Iagg-zSzjaRvA0FB1T7YTsbeLDH8kUfHoYnjYwYo5jatkDQ5ZO2pinJrA0bM35QMYLHkHMXDsryG68Vx4UO4FtzJ0AxEyq7-Cm1_XQT_tj34aimIHzXMMFgFYg938x8fqxairGywQquyNQ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/test/all-user",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615063535711,
+			"name": "Acessar Rota Protegida Por User ou Admin",
+			"description": "",
+			"collectionId": "942f95e6-72e7-9449-ab8a-bbc8f6b5d2da",
+			"responses": []
+		}
+	]
+}
